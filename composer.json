@@ -1,0 +1,25 @@
+{
+    "name": "rabrennie/jupyter-php-kernel",
+    "description": "PHP Kernel for Jupyter Notebooks",
+    "license": "MIT",
+    "require": {
+        "ext-zmq": "*",
+        "psy/psysh": "^0.10.5",
+        "ramsey/uuid": "^4.1",
+        "react/zmq": "^0.4.0"
+    },
+    "require-dev": {
+      "squizlabs/php_codesniffer": "3.*"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JupyterPhpKernel\\": "src/"
+        }
+    },
+    "bin": ["bin/jupyter-php-kernel"]
+}

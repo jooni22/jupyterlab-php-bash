@@ -1,0 +1,5 @@
+{
+  "argv": ["php", "/usr/local/share/jupyter/kernels/php/src/index.php", "{connection_file}"],
+  "display_name": "PHP",
+  "language": "php"
+}
